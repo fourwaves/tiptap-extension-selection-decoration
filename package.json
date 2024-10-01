@@ -1,6 +1,6 @@
 {
   "name": "@fourwaves/tiptap-extension-selection-decoration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a selection decoration extension for tiptap",
   "license": "MIT",
   "main": "dist/index.cjs.js",
@@ -42,5 +42,8 @@
     "editor",
     "text-selection",
     "selection-decoration"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
